@@ -21,7 +21,7 @@ export class AppComponent {
 
 
 constructor(){
-  const arr = ["BENJAMIN", "AGUACATE","CELULAR", "PERRO"];
+  const arr = ["BENJAMIN", "AGUACATE","CELULAR", "PERRO","PARALELEPIPEDO","ELECTROCARDIOGRAMA", "VENEZUELA", "CARACAS", "CACHAPA", "MIRANDA"];
   this.palabra =  arr[Math.floor(Math.random() * arr.length)];
   this.palabraOculta = '_ '.repeat(this.palabra.length);
 }
